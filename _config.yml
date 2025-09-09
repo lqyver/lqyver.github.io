@@ -9,17 +9,17 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: Lqyver # the main title
 
-tagline: 记录，回顾，成长，进步 # it will display as the subtitle
+tagline:  无限 进步   Never-ending Growth  # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  
+ 记录，回顾，成长，进步 
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -28,13 +28,13 @@ url: "https://lqyver.github.io"
 github:
   username: lqyver # change to your GitHub username
 
-twitter:
-  username: none # change to your Twitter username
+#twitter:
+  #username: none # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: lqyver
   email: 2736240319@qq.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -99,18 +99,18 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/1.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: /assets/1.jpg # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
+  provider: giscus # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -120,14 +120,14 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: lqyver/lqyver.github.io # <gh-username>/<repo>
+    repo_id: R_kgDOPspE9Q
+    category: General
+    category_id: DIC_kwDOPspE9c4CvMUV
     mapping: # optional, default to 'pathname'
-    strict: # optional, default to '0'
+    strict:  # optional, default to '0'
     input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
+    lang: zh-CN # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
